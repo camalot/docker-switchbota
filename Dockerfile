@@ -15,4 +15,4 @@ RUN \
 
 WORKDIR /app
 
-ENTRYPOINT [ "node" "index.js" ]
+ENTRYPOINT "node" "/app/index.js"
